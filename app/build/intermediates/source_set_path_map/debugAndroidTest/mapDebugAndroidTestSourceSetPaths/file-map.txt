@@ -1,0 +1,6 @@
+com.nayab.linearlayout.test.app-tracing-1.2.0-0 C:\Users\hp\.gradle\caches\8.11.1\transforms\24e75a0eaadbec175571014fe7d18893\transformed\tracing-1.2.0\res
+com.nayab.linearlayout.test.app-core-1.6.1-1 C:\Users\hp\.gradle\caches\8.11.1\transforms\50d3788d34c40a66b2b378828c7cb305\transformed\core-1.6.1\res
+com.nayab.linearlayout.test.app-androidTest-2 C:\Users\hp\AndroidStudioProjects\LinearLayout\app\build\generated\res\resValues\androidTest\debug
+com.nayab.linearlayout.test.app-mergeDebugAndroidTestResources-3 C:\Users\hp\AndroidStudioProjects\LinearLayout\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.nayab.linearlayout.test.app-mergeDebugAndroidTestResources-4 C:\Users\hp\AndroidStudioProjects\LinearLayout\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.nayab.linearlayout.test.app-debugAndroidTest-5 C:\Users\hp\AndroidStudioProjects\LinearLayout\app\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources
