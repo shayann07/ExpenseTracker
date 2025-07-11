@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="18dp"
+    android:background="@color/black">
+
+    <!-- Header Row-->
+    <LinearLayout
+        android:id="@+id/headerLayout"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp">
+    <!-- Back Arrow -->
+    <ImageView
+        android:id="@+id/ivBack"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:background="@drawable/back_arrow"
+        android:contentDescription="Back" />
+
+    <!-- App Title -->
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="My ExpenseMate"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="26sp"
+        android:layout_weight="1"
+        android:gravity="center" />
+
+</LinearLayout>
+
+    <!-- MPAndroidChart -->
+    <com.github.mikephil.charting.charts.PieChart
+        android:id="@+id/pieChart"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="20dp" />
+    <!-- Total Expense Summary -->
+    <TextView
+        android:id="@+id/tvTotalExpense"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Total Spent:"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:padding="10dp" />
+
+    <LinearLayout
+        android:id="@+id/filterLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="10dp">
+
+        <Button
+            android:id="@+id/btnDaily"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minHeight="56dp"
+            android:text="Daily"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/Grey"/>
+
+        <Button
+            android:id="@+id/btnWeekly"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minHeight="56dp"
+            android:text="Weekly"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/Grey"
+            android:layout_marginStart="10dp" />
+
+        <Button
+            android:id="@+id/btnMonthly"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minHeight="56dp"
+            android:text="Monthly"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/Grey"
+            android:layout_marginStart="10dp" />
+    </LinearLayout>
+
+
+    <!-- Button to Add Expense -->
+    <Button
+        android:id="@+id/btnAddExpense"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add New Expense"
+        android:minHeight="56dp"
+        android:textSize="18sp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/Grey"
+        android:textColor="@color/white"
+        android:padding="12dp" />
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvExpenses"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="12dp"
+        android:paddingBottom="8dp"/>
+</LinearLayout>

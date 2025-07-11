@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="Grey">#646363</color>
+    <color name="black">#FF000000</color>
+    <color name="primaryColor">#00796B</color>
+    <color name="purple_500">#661BEB</color>
+    <color name="teal_700">#00796B</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">Smart Expenses Tracker</string>
+    <style name="Base.Theme.LinearLayout" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+        <item name="android:statusBarColor">@color/white</item>
+        <item name="android:navigationBarColor">@color/black</item>
+    </style>
+    <style name="Theme.LinearLayout" parent="Base.Theme.LinearLayout"/>
+</resources>
